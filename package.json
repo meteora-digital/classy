@@ -1,0 +1,27 @@
+{
+  "name": "@meteora-digital/classy",
+  "version": "0.0.0",
+  "description": "Extend this class to add 'on' event listeners to your other es6 classes",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "test": "npm i && gulp"
+  },
+  "keywords": [
+    "JavaScript",
+    "es6",
+    "classes",
+    "events",
+    "listeners",
+    "extend"
+  ],
+  "author": "Emmanuel Davies",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1"
+  }
+}
