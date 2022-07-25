@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meteora-digital/selector.git"
+    "url": "git+https://github.com/meteora-digital/classy.git"
   },
   "bugs": {
-    "url": "https://github.com/meteora-digital/selector/issues"
+    "url": "https://github.com/meteora-digital/classy/issues"
   },
-  "homepage": "https://github.com/meteora-digital/selector#readme"
+  "homepage": "https://github.com/meteora-digital/classy#readme"
 }
