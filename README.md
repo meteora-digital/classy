@@ -14,7 +14,8 @@ yarn add @meteora-digital/classy
 ```es6
 import Classy from '@meteora-digital/classy';
 
-class MyClass extends Classy {
+// Create a new class that extends Classy
+class MyClassController extends Classy {
   constructor() {
     super();
   }
@@ -22,15 +23,22 @@ class MyClass extends Classy {
   init() {
     // Do something
 
+    // Include the callback method in your class to trigger the event
     this.callback('init', data);
   }
 }
 
+// Create a new instance of your class
+const MyClass = new MyClassController();
+
+// Add an event listener to your class
 MyClass.on('init', (data) => {
   // do something with the data
-})
+});
+
+// Trigger the method, which will trigger the event
+MyClass.init();
 ```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
