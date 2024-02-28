@@ -1,6 +1,6 @@
 {
   "name": "@meteora-digital/classy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extend this class to add 'on' event listeners to your other es6 classes",
   "main": "dist/index.js",
   "scripts": {
